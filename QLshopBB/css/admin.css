@@ -1,0 +1,101 @@
+﻿body {
+    margin:0;
+    padding:0;
+   
+}
+
+#contain-admin{
+    min-height:100%;
+    width:1200px;
+    margin:0 auto;
+    height:auto;height:100%;
+}
+
+#header-adm {
+  text-align:center;
+  font-size: 50px ;
+  background:#ff0000;
+  background-color:#00ffff ;
+  height:150px;
+}
+.logo-adm{
+    float:left;
+    width:1100px;
+    line-height:150px;
+}
+
+.dangxuat{
+    margin:70px 0 0 0;
+    width:100px;
+    float:left;
+    text-align:right;
+    background-color:#00ffff;
+}
+
+.btn-dangxuat{
+    height:50px;
+    border-radius:5px;
+    border:1px solid #ff0000;
+}
+.btn-dangxuat:hover{
+    background-color:#ff0000;
+    color:white;
+    font-weight:bold;
+}
+#menu{
+    
+    margin:0px;
+    padding:0px;
+    color:white;
+    height:40px;
+    background-color:#000000;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+ul li{
+    float:left;
+    width:200px;
+    line-height:40px;
+    text-align:center;  
+    font-size:15px;
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+ul li a:hover{
+    background-color:#f6d20b;
+    color:#000000;
+}
+
+#btnLogout{
+    border:0px;
+    background-color:#000000;
+    color:white;
+    line-height:38px;
+    width:200px;
+    font-size:14px;
+    font-family:'Times New Roman';
+}
+#btnLogout:hover{
+    color:#000000;
+    background-color:#f6d20b;
+}
+
+#main-adm{
+    background-color:#ffffff;
+    height:600px;
+    
+}
+
+#footer-adm{
+    background-color:#69C8CE;
+    text-align:center;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+}
