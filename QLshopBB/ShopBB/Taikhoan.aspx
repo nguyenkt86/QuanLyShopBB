@@ -7,43 +7,43 @@
                 <td colspan="2" align="center">THÔNG TIN CÁ NHÂN&nbsp;</td>
             </tr>
             <tr>
-                <td style="width: 631px">Tên</td>
+                <td style="width: 642px">Tên</td>
                 <td >
                     <asp:TextBox ID="txtFirstname" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td style="width: 631px">Họ và tên đệm</td>
+                <td style="width: 642px">Họ và tên đệm</td>
                 <td  >
                     <asp:TextBox ID="txtLastname" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td style="width: 631px">Email</td>
+                <td style="width: 642px">Email</td>
                 <td  >
                     <asp:TextBox ID="txtMail" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td style="width: 631px">Số điện thoại</td>
+                <td style="width: 642px">Số điện thoại</td>
                 <td  >
                     <asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td style="width: 631px">Địa chỉ</td>
+                <td style="width: 642px">Địa chỉ</td>
                 <td  >
                     <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td style="width: 631px">&nbsp;</td>
+                <td style="width: 642px">&nbsp;</td>
                 <td >
                     <asp:Button ID="btnUpdate" runat="server" OnClick="btnUpdate_Click" Text="Cập nhật" />
                 </td>
             </tr>
             <tr>
-                <td style="width: 631px">&nbsp;</td>
+                <td style="width: 642px">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>

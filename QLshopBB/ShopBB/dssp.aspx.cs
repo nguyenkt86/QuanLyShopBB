@@ -15,4 +15,8 @@ public partial class ShopBB_dssp : System.Web.UI.Page
     {
 
     }
+    protected void btnXoa_Click(object sender, EventArgs e)
+    {
+
+    }
 }

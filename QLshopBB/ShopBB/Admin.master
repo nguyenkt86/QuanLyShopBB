@@ -22,7 +22,7 @@
                 <ul>
                     <li><a href="TaiKhoan.aspx">TÀI KHOẢN</a></li>
                     <li><a href="dssp.aspx">DANH SÁCH SẢN PHẨM</a></li>
-                    <li><a href="#">THÊM SẢN PHẨM</a></li>
+                    <li><a href="Themsp.aspx">THÊM SẢN PHẨM</a></li>
                     <li><a href="#">ĐƠN HÀNG</a></li>
                 </ul>
             </div>

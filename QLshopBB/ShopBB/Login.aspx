@@ -11,7 +11,7 @@
             margin:50px auto;
             font-family:Arial;
             background-color:#00ff90;
-            color:white;
+            color:#ff6a00;
             background-repeat:no-repeat;
             -moz-border-radius:50px;
             -webkit-border-radius: 50px;
