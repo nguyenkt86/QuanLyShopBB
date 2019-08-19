@@ -24,6 +24,9 @@ public partial class ShopBB_Themsp : System.Web.UI.Page
         }
         else
         {
+            string hinhanh = FileUpload1.FileName;
+            string link = Server.MapPath(@"/") + hinhanh;
+            FileUpload1.SaveAs(link);
             bool result = DAO.insert(sanpham);
             if (result)
             {

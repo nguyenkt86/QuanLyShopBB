@@ -12,12 +12,12 @@ using System.Configuration;
 public class ProductDAO
 {
     string connectionString = ConfigurationManager.ConnectionStrings["MyData"].ToString();
-	public ProductDAO()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public ProductDAO()
+    {
+        //
+        // TODO: Add constructor logic here
+        //
+    }
 
     public bool insert(Product product)
     {
@@ -33,7 +33,7 @@ public class ProductDAO
         com.Parameters.AddWithValue("soluong", product.soluong);
         com.Parameters.AddWithValue("dongia", product.dongia);
         com.Parameters.AddWithValue("maloai", product.maloai);
-        
+
         int result = (int)com.ExecuteNonQuery();
         con.Close();
         return (result >= 1);
@@ -52,5 +52,26 @@ public class ProductDAO
         }
     }
 
+    public DataSet loadDL(string query)
+    {
+        SqlConnection con = new SqlConnection(connectionString);
+        con.Open();
+        SqlDataAdapter da = new SqlDataAdapter(query, con);
+        DataSet ds = new DataSet();
+        da.Fill(ds);
+        con.Close();
+        return ds;
+    }
 
+    public bool getQuery(string query)
+    {
+        SqlConnection con = new SqlConnection(connectionString);
+        con.Open();
+        SqlCommand com = new SqlCommand(query, con);
+        int result = com.ExecuteNonQuery();
+        con.Close();
+        return (result >= 1);
+    }
+
+    
 }
